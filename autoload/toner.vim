@@ -157,6 +157,7 @@ func! toner#save()
   0
   silent put! ='hi clear'
   silent put ='set background=' " TODO: curr_l <= 0.5? 'dark' : 'light'
+  silent put ='let g:colors_name = \"\"'
   setfiletype vim
 endfunc
 
@@ -184,7 +185,7 @@ func! toner#unmap()
     if value == ''
       exec "nunmap " . key
     else
-      exec printf("nnoremap % %s", keys, value)
+      exec printf("nnoremap %s %s", key, value)
     endif
   endfor
 endfunc
