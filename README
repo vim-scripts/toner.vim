@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3417
+
+Toner is a plugin for interactively and visually toning vim highlight colors.
+
+See https://github.com/niklasl/vim-toner for full details (and development).
+
+(Toner requires Vim 7 compiled with |+float|, and user settings 'nocompatible', |:syntax| on etc., as might be expected.)
+
+The HSL and hue rotation code is from huerotation.vim (Vim Script #2283) by
+Yukihiro Nakadaira. See http://www.vim.org/scripts/script.php?script_id=2283
+(placed in the public domain). Many thanks for this!
+
